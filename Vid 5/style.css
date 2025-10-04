@@ -1,0 +1,18 @@
+td {
+    border: 1px solid rgb(97, 16, 16);
+}
+
+caption {
+    border: 1px solid rgb(97, 16, 16);
+    color: blue;
+}
+
+th {
+    color: rgb(10, 87, 87);
+}
+
+ul{
+    border: 2px solid black;
+    font-size: larger;
+    font-style: italic;
+}
