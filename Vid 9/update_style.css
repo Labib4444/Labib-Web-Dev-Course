@@ -1,0 +1,13 @@
+.red{
+ color: rgb(255, 93, 93);
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+    background-color: rgba(255, 3, 3, 0.336);
+}
+span{
+    color:blue}
