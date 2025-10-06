@@ -1,0 +1,26 @@
+/* <div id="first">I am the number one</div>
+<div id="second" class="red">number 2 is my number</div>
+<div id="third" class="bgyellow">i am the third one</div>
+<div id="fourth" class= red bgyellow">i am fourth id</div>
+<div id="fifth">5th is my id number</div>
+<div class="red">hehehehehehe</div>
+<div class="blue">hihihihihihi</div>
+<div class="red bgyellow">hehehihihehehe</div>
+<div class="blue bgyellow">huhuhuhuhuhu</div> */
+
+
+.red{
+color: red;
+}
+.blue{
+color: blue;
+}
+#second{
+    color:aqua
+}
+.bgyellow{
+    background-color: yellow;
+}
+#third{
+background-color: brown;
+}
