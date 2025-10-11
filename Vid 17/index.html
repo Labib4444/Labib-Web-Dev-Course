@@ -2,92 +2,106 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Selectors</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Selectors</title>
 
-    <style>
-        /* Element Selector 
-    div{
-    color: red;
-        } */
+<style>
+    /* Element Selector 
+div{
+color: red;
+    } */
 
-        /* Class Selector */
-        .blue {
-            color: rgb(2, 6, 255);
-        }
+    /* Class Selector */
+    .blue {
+        color: rgb(2, 6, 255);
+    }
 
-        /* ID Selector */
-        #green {
-            color: green
-        }
+    /* ID Selector */
+    #green {
+        color: green
+    }
 
-        /* Child Selector  */
-        div>p {
-            background-color: rgba(39, 21, 201, 0.521);
-        }
+    /* Child Selector  */
+    div>p {
+        background-color: rgba(39, 21, 201, 0.521);
+    }
 
-        /* Descendent Selector */
-        div p {
-            background-color: rgb(166, 168, 34);
-        }
+    /* Descendent Selector */
+    div p {
+        background-color: rgb(166, 168, 34);
+    }
 
-        /* Universal Selector */
-        * {
-            margin: 0;
-            padding: 0;
-        }
+    /* Group Selector */
+    span,
+    h4 {
 
-        /* Pseudo Classes */
-        a:link {
-            background: #5eff00c2;
-            color: rgb(114, 32, 32);
-        }
+        background: blue;
+        color: aqua;
+    }
 
-        a:visited {
-            color: rgb(183, 0, 255);
-        }
 
-        a:hover {
-            background: #000;
-        }
 
-        a:active {
-            background-color: rgb(255, 2, 120);
-        }
 
-        p:last-child {
-            color: rgba(252, 0, 0, 0.733);
-        }
-    </style>
+    /* Universal Selector */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Pseudo Classes */
+    a:link {
+        background: #5eff00c2;
+        color: rgb(114, 32, 32);
+    }
+
+    a:visited {
+        color: rgb(183, 0, 255);
+    }
+
+    a:hover {
+        background: #000;
+    }
+
+    a:active {
+        background-color: rgb(255, 2, 120);
+    }
+
+    p:last-child {
+        color: rgba(252, 0, 0, 0.733);
+    }
+</style>
 </head>
 
 <body>
-    <main>
+<main>
+    <p>
+    <h2>
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis harum eius quod?</p>
+    </h2>
+</main>
+
+
+<div id="green">
+    I am a div
+</div>
+<div class="blue"> I am another div</div>
+
+<div>I am a div
+    <article>
         <p>
-        <h2>
-
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis harum eius quod?</p>
-        </h2>
-    </main>
-
-
-    <div id="green">
-        I am a div
-    </div>
-    <div class="blue"> I am another div</div>
-
-    <div>I am a div
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti voluptates sed sapiente eos
-                aperiam, ex inventore, illum fuga laboriosam ipsa minima voluptatem?
-            </p>
-        </article>
-    </div>
-
-    <a href="https://www.twitter.com">Open Twitter</a>
-    <a href="https://www.google.com">Open Google</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti voluptates sed sapiente eos
+            aperiam, ex inventore, illum fuga laboriosam ipsa minima voluptatem?
+        </p>
+    </article>
+</div>
+<span>
+    HEHEH boiiii Its gor group Selector
+</span>
+<h4>Its also for group selector</h4>
+<a href="https://www.twitter.com">Open Twitter</a>
+<a href="https://www.google.com">Open Google</a>
 </body>
 
 </html>
