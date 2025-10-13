@@ -6,23 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fonts</title>
     <style>
-        h1{
-            font-size: small;
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+        h1 {
+            font-size: 30px;
+       font-family: Lato;
+       font-style: oblique;
         }
-h2{
-    font-style: italic;
-}
 
+        h2 {
+            font-weight: 600;
+            font-family: "Lato", sans-serif;
+            font-size: xx-large;
+            font-style: italic;
+        }
 
+        .hudai {
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: overline;
+            /* text-decoration-color: rgb(14, 14, 134);
+         text-decoration-style: wavy; */
+            text-decoration-thickness: 3px;
+            text-indent: 20px;
+        }
+
+        .lorem {
+            width: 40px;
+            /* text-indent: 23px; */
+            border: 2px solid red;
+             /* word-break: break-all; */
+           text-overflow: ellipsis;
+            overflow: hidden;
+        }
     </style>
 </head>
 
 <body>
-<h1>Hey guys , &nbsp; &nbsp; now we gonna learn about fonts, text decoration, font styling etc....</h1>
+    <div>
+        <h1>Hey guys , &nbsp; now we gonna learn about fonts, text decoration, font styling etc....</h1>
 
-<h2>about fonts</h2>
-
-
+        <h2>About Fonts. Its a demo tutorial. Enjoy for free.</h2>
+        <p class="hudai">
+            this is a tutorial video on fonts by CODE with Harry in Sigma Web dev course
+        </p>
+        <p class="lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsa quos quam eos fuga, quo officiis
+            beatae cumque dolores dignissimos quas natus debitis!
+        </p>
+    </div>
 </body>
 
 </html>
