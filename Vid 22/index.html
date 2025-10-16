@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-size: 12px;
+    }
+
+    .box {
+        min-height: 10vh;
+        width: 80vw;
+        margin: auto;
+        color: rgb(1, 0, 46);
+        background-color: aqua;
+        border: 2px solid red;
+        box-sizing: border-box;
+    }
+
+    .firstcont {
+        font-size: 18px;
+        width: 80vw;
+        min-height: 80vh;
+        margin: 12px auto;
+        border: 2px solid rgb(73, 175, 5);
+        box-sizing: border-box;
+    }
+
+    .firstcont>div {
+        font-size: 1.3rem;
+        color: red;
+        border: 1px solid rgb(119, 36, 173);
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .firstcont>div>div {
+        color: darkblue;
+        font-size: 1.5em;
+        word-break: break-all;
+        text-overflow: clip;
+        border: 0.5px solid rgb(29, 71, 0);
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .lastcont {
+        width: 80vw;
+        height: 10vh;
+        margin: 12px auto;
+        border: 2px solid rgb(250, 0, 217);
+        box-sizing: border-box;
+        font-size: 2em;
+    }
+</style>
+
+
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <div class="firstcont">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste maxime dolores sit expedita labore magnam
+        laudantium architecto adipisci incidunt sunt deserunt, amet possimus quae accusantium porro sed id, ducimus
+        exercitationem harum dolore repudiandae delectus commodi perferendis! In voluptate nulla explicabo obcaecati
+        perspiciatis, nam aperiam at quos eos inventore offidem qui placeat repudiandae nam doloribus repellendus fuga
+        voluptas temporibus veritatis nisi possimus exercitationem impedit, praesentium maxime et fugit suscipit,
+        facilis sapistinctio magni. Minima reprehenderit numquam illum nisi
+        beatae corrupti quidem facere aliquam fuga! Sequi assumenda est ve
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis voluptas est aliquam, dolores rem
+            laudantium nulla maiores odio fugit, totam voluptatem saepe!
+            <div>
+                hehehehhehehehehehehehehehehehehkjsdfhkharwnvj Nihil harum error iste ratione sequi laborum sapiente
+                accusamus porro! Reprehenderit quidem recusandae placeat facilis inci
+            </div>
+        </div>
+    </div>
+    <div class="lastcont">
+        I am the last div here in the website.....
+    
+    </div>
+</body>
+
+</html>

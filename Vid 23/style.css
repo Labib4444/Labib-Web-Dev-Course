@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid rgb(173, 101, 101);
+    text-align: center;
+    width: 350px;
+    margin: 53px;
+    padding: 23px;
+    display: inline-block;
+
+}
+
+.box1 {
+    border: 2px solid black;
+    color: rgb(74, 21, 124);
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+span {
+    color: red;
+}
