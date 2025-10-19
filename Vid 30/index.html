@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --color: rgb(235, 183, 228);
+            --seccolor: rgb(216, 63, 196);
+            --defpad: 10px;
+            --defop: 0.9;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: var(--color);
+
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: var(--defpad);
+            border: 1px solid var(--seccolor);
+            border-radius: 5px;
+            /* margin: 5px; */
+        }
+
+        ul li:first-child {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            --seccolor: rgb(243, 87, 8);
+            background-color: var(--seccolor);
+        }
+
+        .container {
+            border: 5px solid var(--color);
+            margin-top: 15px;
+            padding: var(--defpad);
+            text-indent: 15px;
+            background-color: var(--seccolor);
+            opacity: var(--defop);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Info</li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iusto maxime, repellat sed tenetur inventore
+            inciui adipisci dolore ratione
+            deserunt pariatur! Voluptatem voluptatsumenda! Magnam facere natus
+            quia ipsa, cumque deserunt id quas repudiandae consequatur nisi nemo esse minima est ipsam molestiae
+            corrupti eaque adipisci repellendus deleniti veritatis. Odio unde enim inventore optio animi non porro ut
+            consequatur est sit nesciunt aut magnam quas et deserunt aliquam debitis incidunt, fugit dolor perferendis
+            ex repudiandae illo. Cumque quos facere ab, aperiam adipisci dolore corrupti est cum quae similique placeat?
+            Aperiam nostrum exercitationem vero ex veniam totam accusamus, praesentium dicta, eius mollitia voluptates
+            omnis minus, distinctio nulla! Nam ipsam eaque maxime laboriosam doloribus consequatur hic rem, odit illum
+            dolorum possimus sunt iure facilis, est, nisi odio. Aliquam animi beatae mollitia, ullam voluptates sequi
+            ducimus consequatur esse vel soluta atque corrupti, blanditiis, illo deleniti facilis? Sunt beatae earum
+            autem, omnis quidem perspiciatis soluta quia perferendis provident dolore, neque, eos ea eum id labore
+            sapiente explicabo eaque? Repudiandae!
+        </p>
+    </div>
+
+</body>
+
+</html>
