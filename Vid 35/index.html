@@ -5,10 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More on CSS selectors</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* .boxes * {
+            background-color: yellow;
+            color: blue;
+            border: 2px solid black;
+            margin: 3px 2px 1px 4px;
+        } */
+
+        /* .box:first-child{
+            background: red;
+        } */
+
+        /* .box:nth-child(2){
+            color: green;
+         } */
+
+        /* .box:nth-child(even) {
+            background-color: blue;
+            color: whitesmoke;
+        }
+        
+        .box:nth-child(odd) {
+            background-color: green;
+            color: whitesmoke;
+        } */
+
+
+        /* .box:nth-last-child(even) {
+            background-color: red;
+        } */
+
+        /* .box:nth-last-child(3) {
+            background-color: red;
+        } */
+        /* .box::first-line {
+            color: greenyellow;
+        } */
+
+        /* .box, [data-color='primary']{
+        background: yellow;
+        } */
+
+        /* [data-color='primary'] {
+            background: yellow;
+            } */
+
+        .box::first-letter {
+            font-size: xx-large;
+        }
+
+        .boxes::after {
+            content: 'hehe boiii';
+            background-color: yellow;
+        }
+
+        .boxes::before {
+            content: 'hihihihi boiii';
+            background-color: yellow;
+        }
+
+        ::selection {
+            color: brown;
+            background-color: lightcoral;
+        }
+
+        input::placeholder {
+            background-color: greenyellow;
+            border: 2px solid blue;
+            font-size: xx-large;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am the first box</div>
+        <div class="box">I am the 2nd box HEHE</div>
+        <div class="box">I am the last one</div>
+        <div class="box"> <input type="text" placeholder="Enter your name"></div>
+    </div>
 
-</body>
 
 </html>
